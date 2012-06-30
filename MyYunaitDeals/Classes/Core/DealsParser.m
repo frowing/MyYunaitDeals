@@ -1,13 +1,13 @@
 //
-//  SecondViewController.h
+//  DealsParser.m
 //  MyYunaitDeals
 //
 //  Created by Francisco Sevillano on 30/06/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "DealsParser.h"
 
-@interface SecondViewController : UIViewController
+@implementation DealsParser
 
 @end

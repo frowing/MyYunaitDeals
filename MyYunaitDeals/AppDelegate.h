@@ -7,11 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FBConnect.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+#define FACEBOOK_DID_LOGIN @"facebookDidLogin"
+#define FACEBOOK_DID_LOGOUT @"facebookDidLogout"
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : UIResponder
+<UIApplicationDelegate,
+FBSessionDelegate, 
+UITabBarControllerDelegate> {
+  Facebook *facebook_;
+}
 
-@property (strong, nonatomic) UITabBarController *tabBarController;
+@property (retain, nonatomic) UIWindow *window;
+
+@property (retain, nonatomic) UITabBarController *tabBarController;
+@property (retain, nonatomic) Facebook *facebook;
+
+- (void)loginWithFacebook;
 
 @end
