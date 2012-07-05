@@ -10,4 +10,10 @@
 
 @interface DealsParser : NSObject
 
+
+@property(nonatomic,retain)NSJSONSerialization *serialization;
+
+
+- (NSArray*)dealsForData:(NSData*)data;
+
 @end

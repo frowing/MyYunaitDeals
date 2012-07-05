@@ -25,6 +25,7 @@
 - (void)getNearbyDeals;
 - (void)getMyDeals;
 - (void)createEventWithName:(NSString*)name 
+                      ident:(NSString*)ident
                    location:(NSString*)location 
                        date:(NSDate*)date;
 

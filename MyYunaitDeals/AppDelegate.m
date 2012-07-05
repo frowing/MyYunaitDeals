@@ -32,9 +32,7 @@
 {
   self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
   UIViewController *viewController1 = [[[FirstNavigationViewController alloc] init] autorelease];
-  ((UITabBarItem*)[self.tabBarController.tabBar.items objectAtIndex:0]).title = @"Ofertas";
-  
-  viewController1.tabBarItem.image = [UIImage imageNamed:@"first"];
+  //((UITabBarItem*)[self.tabBarController.tabBar.items objectAtIndex:0]).title = @"Ofertas";
   
   UIViewController *viewController2 = [[[SecondNavigationViewController alloc] init] autorelease];
   UIViewController *viewController3 = [[[ThirdViewController alloc] init]autorelease];
@@ -69,7 +67,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-  // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+  
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
