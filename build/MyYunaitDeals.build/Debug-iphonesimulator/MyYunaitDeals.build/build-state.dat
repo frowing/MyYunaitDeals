@@ -1,999 +1,0 @@
-TMyYunaitDeals
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/Info.plist MyYunaitDeals/MyYunaitDeals-Info.plist
-cSymLink /Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app
-cProcessPCH /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch.pth MyYunaitDeals/MyYunaitDeals-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AppDelegate.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/main.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FirstNavigationViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FirstNavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SecondNavigationViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/SecondNavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Facebook.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBDialog.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBFrictionlessRequestSettings.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBFrictionlessRequestSettings.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBLoginDialog.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBRequest.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSObject+SBJSON.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSString+SBJSON.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJSON.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonBase.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonParser.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonWriter.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FacebookLogin.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/ThirdViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsHandler.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewCell.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Deal.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/Deal.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AsyncImageView.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/AsyncImageView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/HttpConnection.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsParser.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals normal i386
-cGenerateDSYMFile /Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app.dSYM /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals
-cCpResource MyYunaitDeals/first.png Frank/frankified_build/./MyYunaitDeals.app/first.png
-cCopyStringsFile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/en.lproj/InfoPlist.strings MyYunaitDeals/en.lproj/InfoPlist.strings
-cCpResource MyYunaitDeals/first@2x.png Frank/frankified_build/./MyYunaitDeals.app/first@2x.png
-cCpResource MyYunaitDeals/second.png Frank/frankified_build/./MyYunaitDeals.app/second.png
-cCpResource MyYunaitDeals/second@2x.png Frank/frankified_build/./MyYunaitDeals.app/second@2x.png
-cCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.xib
-cCpResource MyYunaitDeals/facebookSDK/src/FBDialog.bundle Frank/frankified_build/./MyYunaitDeals.app/FBDialog.bundle
-cCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.xib
-cCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.xib
-cCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.xib
-cCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.xib
-cTouch /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-c000000004F453DF80000000000000110
-t1329937912
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004FE9D46C0000000000244490
-t1340724332
-s2376848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004FE9D46D0000000000353830
-t1340724333
-s3487792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004FE9D46F00000000001AB190
-t1340724335
-s1749392
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004FE9D4720000000000905E40
-t1340724338
-s9461312
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/DealViewCell.nib
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/DealViewController.nib
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/DealsViewController.nib
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/FBDialog.bundle
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/FacebookLogin.nib
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/Info.plist
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/PkgInfo
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/ThirdViewController.nib
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/first.png
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/first@2x.png
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/second.png
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/second@2x.png
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m
-c000000004FEF5A3B000000000000115E
-t1341086267
-s4446
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/Deal.m
-c000000004FEF2C230000000000000142
-t1341074467
-s322
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.m
-c000000004FF5F0860000000000000E41
-t1341517958
-s3649
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsParser.m
-c000000004FEF4DA90000000000000439
-t1341083049
-s1081
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m
-c000000004FEF1E0A0000000000001662
-t1341070858
-s5730
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/AsyncImageView.m
-c000000004FEC41BE0000000000004EDB
-t1340883390
-s20187
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.m
-c000000004FEF4C8A00000000000002B6
-t1341082762
-s694
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.xib
-c000000004FEF4CD500000000000029EC
-t1341082837
-s10732
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m
-c000000004FEF582E000000000000071F
-t1341085742
-s1823
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.xib
-c000000004FEF560300000000000044A7
-t1341085187
-s17575
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m
-c000000004FF69F700000000000000DB1
-t1341562736
-s3505
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.xib
-c000000004FEF27CB0000000000002AD4
-t1341073355
-s10964
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.m
-c000000004FEF3F1900000000000005EE
-t1341079321
-s1518
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.xib
-c000000004FEF05410000000000002082
-t1341064513
-s8322
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FirstNavigationViewController.m
-c000000004FEF5CB50000000000000839
-t1341086901
-s2105
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/SecondNavigationViewController.m
-c000000004FEF566F0000000000000404
-t1341085295
-s1028
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.m
-c000000004FEF0E93000000000000078A
-t1341066899
-s1930
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.xib
-c000000004FEF0A74000000000000237A
-t1341065844
-s9082
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/MyYunaitDeals-Prefix.pch
-c000000004FEEE67F0000000000000145
-t1341056639
-s325
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/en.lproj/InfoPlist.strings
-c000000004FEEE67F000000000000002D
-t1341056639
-s45
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.bundle
-c000000004FEEEEBB0000000000000066
-t1341058747
-s102
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.m
-c000000004FEEEEBB000000000000677B
-t1341058747
-s26491
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBFrictionlessRequestSettings.m
-c000000004FEEEEBB000000000000164B
-t1341058747
-s5707
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBLoginDialog.m
-c000000004FEEEEBB0000000000000C40
-t1341058747
-s3136
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBRequest.m
-c000000004FEEEEBB000000000000333F
-t1341058747
-s13119
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.m
-c000000004FEEEEBB0000000000007F1F
-t1341058747
-s32543
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSObject+SBJSON.m
-c000000004FEEEEBB000000000000089E
-t1341058747
-s2206
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSString+SBJSON.m
-c000000004FEEEEBB000000000000087D
-t1341058747
-s2173
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJSON.m
-c000000004FEEEEBB0000000000001ABC
-t1341058747
-s6844
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonBase.m
-c000000004FEEEEBB0000000000000AC1
-t1341058747
-s2753
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonParser.m
-c000000004FEEEEBB00000000000036D0
-t1341058747
-s14032
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonWriter.m
-c000000004FEEEEBB0000000000001F26
-t1341058747
-s7974
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/first.png
-c000000004FA0975100000000000000FD
-t1335924561
-s253
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/first@2x.png
-c000000004FA097510000000000000192
-t1335924561
-s402
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/main.m
-c000000004FEF5B59000000000000015F
-t1341086553
-s351
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/second.png
-c000000004FA097510000000000000080
-t1335924561
-s128
-
-N/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/second@2x.png
-c000000004FA097510000000000000082
-t1335924561
-s130
-
-N/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app.dSYM
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AsyncImageView.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Deal.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewCell.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewController.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsHandler.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsParser.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsViewController.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBDialog.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBFrictionlessRequestSettings.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBLoginDialog.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBRequest.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Facebook.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FacebookLogin.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FirstNavigationViewController.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/HttpConnection.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/MyYunaitDeals.LinkFileList
-c00000000508A25710000000000000DF4
-t1351230833
-s3572
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSObject+SBJSON.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSString+SBJSON.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJSON.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonBase.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonParser.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonWriter.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SecondNavigationViewController.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/ThirdViewController.o
-t2
-s0
-
-N/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch.pth
-t2
-s0
-
-NMyYunaitDeals/MyYunaitDeals-Info.plist
-c000000004FEEFFF20000000000000538
-t1341063154
-s1336
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies47b011f15c3ab641^c05926f15c3ab641^---0#1#0#--18"Check dependencies36"6B7FB2E0-2A0A-4566-ABD1-DCBFCDB2B0B6-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AppDelegate.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.564416
-e372923633.716639
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AppDelegate.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]
-o@implementation AppDelegate
-o                ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h:27:1: note: method definition for 'loginWithFacebook' not found
-o- (void)loginWithFacebook;
-o^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m:17:17: warning: method in protocol not implemented [-Wprotocol]
-o@implementation AppDelegate
-o                ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h:127:1: note: method declared here
-o- (void)fbDidNotLogin:(BOOL)cancelled;
-o^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h:15:12: note: required for direct or indirect protocol 'FBSessionDelegate'
-o@interface AppDelegate : UIResponder
-o           ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m:17:17: warning: method in protocol not implemented [-Wprotocol]
-o@implementation AppDelegate
-o                ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h:136:1: note: method declared here
-o- (void)fbDidExtendToken:(NSString*)accessToken
-o^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h:15:12: note: required for direct or indirect protocol 'FBSessionDelegate'
-o@interface AppDelegate : UIResponder
-o           ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m:17:17: warning: method in protocol not implemented [-Wprotocol]
-o@implementation AppDelegate
-o                ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h:151:1: note: method declared here
-o- (void)fbSessionInvalidated;
-o^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h:15:12: note: required for direct or indirect protocol 'FBSessionDelegate'
-o@interface AppDelegate : UIResponder
-o           ^
-o4 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m6fa090f15c3ab641^4c8ab7f15c3ab641^-1925"/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation AppDelegate                ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h:27:1: note: method definition for 'loginWithFacebook' not found- (void)loginWithFacebook;^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m:17:17: warning: method in protocol not implemented [-Wprotocol]@implementation AppDelegate                ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h:127:1: note: method declared here- (void)fbDidNotLogin:(BOOL)cancelled;^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h:15:12: note: required for direct or indirect protocol 'FBSessionDelegate'@interface AppDelegate : UIResponder           ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m:17:17: warning: method in protocol not implemented [-Wprotocol]@implementation AppDelegate                ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h:136:1: note: method declared here- (void)fbDidExtendToken:(NSString*)accessToken^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h:15:12: note: required for direct or indirect protocol 'FBSessionDelegate'@interface AppDelegate : UIResponder           ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m:17:17: warning: method in protocol not implemented [-Wprotocol]@implementation AppDelegate                ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h:151:1: note: method declared here- (void)fbSessionInvalidated;^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h:15:12: note: required for direct or indirect protocol 'FBSessionDelegate'@interface AppDelegate : UIResponder           ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-372923633#18446744073709551615#0#1(2@51"Method definition for 'loginWithFacebook' not found-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h0000000000000000^26#0#26#0#606#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m0000000000000000^16#16#16#16#318#0#14"Semantic Issue--2@34"Method in protocol not implemented-372923633#18446744073709551615#0#2(2@20"Method declared here-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h0000000000000000^126#0#126#0#4088#0#14"Semantic Issue--2@60"Required for direct or indirect protocol 'FBSessionDelegate'-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h0000000000000000^14#11#14#11#312#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m0000000000000000^16#16#16#16#318#0#14"Semantic Issue--2@34"Method in protocol not implemented-372923633#18446744073709551615#0#2(2@20"Method declared here-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h0000000000000000^135#0#135#0#4482#0#14"Semantic Issue--2@60"Required for direct or indirect protocol 'FBSessionDelegate'-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h0000000000000000^14#11#14#11#312#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m0000000000000000^16#16#16#16#318#0#14"Semantic Issue--2@34"Method in protocol not implemented-372923633#18446744073709551615#0#2(2@20"Method declared here-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.h0000000000000000^150#0#150#0#4873#0#14"Semantic Issue--2@60"Required for direct or indirect protocol 'FBSessionDelegate'-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.h0000000000000000^14#11#14#11#312#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m0000000000000000^16#16#16#16#318#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m0000000000000000^3439"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AppDelegate.o MyYunaitDeals/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AppDelegate.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/AppDelegate.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AppDelegate.o36"7802EB29-0496-4FAA-9BE2-8D2AA9DFDCE0-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AsyncImageView.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/AsyncImageView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.202230
-e372923634.444150
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AsyncImageView.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/AsyncImageView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/AsyncImageView.m3d0d34f25c3ab641^9eb371f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/AsyncImageView.m0000000000000000^3479"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AsyncImageView.o MyYunaitDeals/Classes/UI/AsyncImageView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AsyncImageView.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AsyncImageView.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/AsyncImageView.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/AsyncImageView.o36"B56DFFE2-AC63-4ACE-A61B-5C7E1A77207C-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Deal.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/Deal.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.200908
-e372923634.270982
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Deal.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/Deal.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/Deal.m5cad33f25c3ab641^8e9445f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/Deal.m0000000000000000^3423"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Deal.o MyYunaitDeals/Classes/Core/Deal.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Deal.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Deal.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/Deal.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Deal.o36"38DC35CE-9A4C-4949-A049-93722C09EA81-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewCell.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.168291
-e372923634.332300
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewCell.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.m8db52bf25c3ab641^8c1155f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.m0000000000000000^3467"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewCell.o MyYunaitDeals/Classes/UI/DealViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewCell.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewCell.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewCell.o36"70FF1A37-FF4D-491C-8788-15922CAE2E35-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.272275
-e372923634.391012
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewController.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m:10:
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:20:46: warning: property 'title' 'copy' attribute does not match the property inherited from 'UIViewController'
-o@property(nonatomic,retain)IBOutlet UILabel *title;
-o                                             ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:20:46: warning: property type 'UILabel *' is incompatible with type 'NSString *' inherited from 'UIViewController'
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:166:37: note: property declared here
-o@property(nonatomic,copy) NSString *title;  // Localized title for use by a parent controller.
-o                                    ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]
-o@implementation DealViewController
-o                ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m:17:17: warning: method in protocol not implemented [-Wprotocol]
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.h:13:1: note: method declared here
-o- (void)dealsReceived:(NSArray*)deals;
-o^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:14:12: note: required for direct or indirect protocol 'DealsHandlerDelegate'
-o@interface DealViewController : UIViewController<DealsHandlerDelegate>
-o           ^
-o4 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m96eb45f25c3ab641^823b64f25c3ab641^-1737"In file included from /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m:10:/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:20:46: warning: property 'title' 'copy' attribute does not match the property inherited from 'UIViewController'@property(nonatomic,retain)IBOutlet UILabel *title;                                             ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:20:46: warning: property type 'UILabel *' is incompatible with type 'NSString *' inherited from 'UIViewController'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:166:37: note: property declared here@property(nonatomic,copy) NSString *title;  // Localized title for use by a parent controller.                                    ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation DealViewController                ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m:17:17: warning: method in protocol not implemented [-Wprotocol]/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.h:13:1: note: method declared here- (void)dealsReceived:(NSArray*)deals;^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:14:12: note: required for direct or indirect protocol 'DealsHandlerDelegate'@interface DealViewController : UIViewController<DealsHandlerDelegate>           ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@95"Property 'title' 'copy' attribute does not match the property inherited from 'UIViewController'-372923634#18446744073709551615#0#1(2@109"In file included from /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m:10:-372923634#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m0000000000000000^9#8#9#8#189#0#30"Apple LLVM compiler 3.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h0000000000000000^19#45#19#45#596#0#14"Semantic Issue--2@98"Property type 'UILabel *' is incompatible with type 'NSString *' inherited from 'UIViewController'-372923634#18446744073709551615#0#2(2@109"In file included from /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m:10:-372923634#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m0000000000000000^9#8#9#8#189#0#30"Apple LLVM compiler 3.1 Notice--2@22"Property declared here-372923634#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^165#36#165#36#8037#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h0000000000000000^19#45#19#45#596#0#14"Semantic Issue--2@25"Incomplete implementation-372923634#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m0000000000000000^16#16#16#16#270#0#14"Semantic Issue--2@34"Method in protocol not implemented-372923634#18446744073709551615#0#2(2@20"Method declared here-372923634#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@95"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.h0000000000000000^12#0#12#0#251#0#14"Semantic Issue--2@63"Required for direct or indirect protocol 'DealsHandlerDelegate'-372923634#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h0000000000000000^13#11#13#11#269#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m0000000000000000^16#16#16#16#270#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m0000000000000000^3503"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewController.o MyYunaitDeals/Classes/UI/DealViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewController.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewController.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealViewController.o36"1135D461-4744-4C87-AF44-202047237DBC-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsHandler.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.109663
-e372923634.226291
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsHandler.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.m3d431cf25c3ab641^c2a63af25c3ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.m0000000000000000^3471"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsHandler.o MyYunaitDeals/Classes/Core/DealsHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsHandler.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsHandler.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsHandler.o36"89598D60-B1CE-478D-8E5F-3BF9F635FFF3-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsParser.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.334668
-e372923634.382006
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsParser.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsParser.m32e355f25c3ab641^59da61f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsParser.m0000000000000000^3465"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsParser.o MyYunaitDeals/Classes/Core/DealsParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsParser.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsParser.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsParser.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsParser.o36"8305E6F5-E0F0-4DA7-A986-B26AC3A26E5E-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.634857
-e372923633.854381
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsViewController.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m:12:
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:20:46: warning: property 'title' 'copy' attribute does not match the property inherited from 'UIViewController'
-o@property(nonatomic,retain)IBOutlet UILabel *title;
-o                                             ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:20:46: warning: property type 'UILabel *' is incompatible with type 'NSString *' inherited from 'UIViewController'
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:166:37: note: property declared here
-o@property(nonatomic,copy) NSString *title;  // Localized title for use by a parent controller.
-o                                    ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m:22:17: warning: incomplete implementation [-Wincomplete-implementation]
-o@implementation DealsViewController
-o                ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m:22:17: warning: method in protocol not implemented [-Wprotocol]
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.h:14:1: note: method declared here
-o- (void)eventCreated;
-o^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.h:12:12: note: required for direct or indirect protocol 'DealsHandlerDelegate'
-o@interface DealsViewController : UIViewController
-o           ^
-o4 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m5dc1a2f15c3ab641^9acedaf15c3ab641^-1704"In file included from /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m:12:/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:20:46: warning: property 'title' 'copy' attribute does not match the property inherited from 'UIViewController'@property(nonatomic,retain)IBOutlet UILabel *title;                                             ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h:20:46: warning: property type 'UILabel *' is incompatible with type 'NSString *' inherited from 'UIViewController'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:166:37: note: property declared here@property(nonatomic,copy) NSString *title;  // Localized title for use by a parent controller.                                    ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m:22:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation DealsViewController                ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m:22:17: warning: method in protocol not implemented [-Wprotocol]/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.h:14:1: note: method declared here- (void)eventCreated;^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.h:12:12: note: required for direct or indirect protocol 'DealsHandlerDelegate'@interface DealsViewController : UIViewController           ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@95"Property 'title' 'copy' attribute does not match the property inherited from 'UIViewController'-372923633#18446744073709551615#0#1(2@110"In file included from /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m:12:-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m0000000000000000^11#8#11#8#241#0#30"Apple LLVM compiler 3.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h0000000000000000^19#45#19#45#596#0#14"Semantic Issue--2@98"Property type 'UILabel *' is incompatible with type 'NSString *' inherited from 'UIViewController'-372923633#18446744073709551615#0#2(2@110"In file included from /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m:12:-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m0000000000000000^11#8#11#8#241#0#30"Apple LLVM compiler 3.1 Notice--2@22"Property declared here-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^165#36#165#36#8037#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.h0000000000000000^19#45#19#45#596#0#14"Semantic Issue--2@25"Incomplete implementation-372923633#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m0000000000000000^21#16#21#16#406#0#14"Semantic Issue--2@34"Method in protocol not implemented-372923633#18446744073709551615#0#2(2@20"Method declared here-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@95"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/DealsHandler.h0000000000000000^13#0#13#0#290#0#14"Semantic Issue--2@63"Required for direct or indirect protocol 'DealsHandlerDelegate'-372923633#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.h0000000000000000^11#11#11#11#226#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m0000000000000000^21#16#21#16#406#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@100"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m0000000000000000^3509"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsViewController.o MyYunaitDeals/Classes/UI/DealsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsViewController.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsViewController.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/DealsViewController.o36"439D64C9-A486-4251-8193-49859CFEB39B-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBDialog.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.696194
-e372923633.988937
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBDialog.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.m637eb2f15c3ab641^4f3efdf15c3ab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.m0000000000000000^3453"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBDialog.o MyYunaitDeals/facebookSDK/src/FBDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBDialog.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBDialog.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBDialog.o36"C93EA6D9-C8F8-41C9-A687-1E8DE56CA415-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBFrictionlessRequestSettings.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBFrictionlessRequestSettings.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.718635
-e372923633.854438
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBFrictionlessRequestSettings.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBFrictionlessRequestSettings.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBFrictionlessRequestSettings.m683db8f15c3ab641^9c4ddbf15c3ab641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBFrictionlessRequestSettings.m0000000000000000^3579"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBFrictionlessRequestSettings.o MyYunaitDeals/facebookSDK/src/FBFrictionlessRequestSettings.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBFrictionlessRequestSettings.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBFrictionlessRequestSettings.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBFrictionlessRequestSettings.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBFrictionlessRequestSettings.o36"B035935C-100F-4F0A-A895-F8E8C418B913-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBLoginDialog.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.855666
-e372923633.996984
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBLoginDialog.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBLoginDialog.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBLoginDialog.m2c48dbf15c3ab641^747c00f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBLoginDialog.m0000000000000000^3483"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBLoginDialog.o MyYunaitDeals/facebookSDK/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBLoginDialog.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBLoginDialog.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBLoginDialog.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBLoginDialog.o36"946AEEFC-A1C7-4856-B57B-35829178D574-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBRequest.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.856917
-e372923634.015332
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBRequest.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBRequest.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBRequest.m0da8dbf15c3ab641^4b0204f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBRequest.m0000000000000000^3459"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBRequest.o MyYunaitDeals/facebookSDK/src/FBRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBRequest.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBRequest.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBRequest.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FBRequest.o36"E9FBA08A-41C4-4591-9CAE-F50B6DB37EF4-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Facebook.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.673029
-e372923633.919396
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Facebook.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.me89facf15c3ab641^7978ebf15c3ab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.m0000000000000000^3453"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Facebook.o MyYunaitDeals/facebookSDK/src/Facebook.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Facebook.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Facebook.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/Facebook.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/Facebook.o36"BE2F488C-AE57-4930-8E3C-9860C081E2B0-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FacebookLogin.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.058958
-e372923634.200859
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FacebookLogin.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.m3c500ff25c3ab641^9f7733f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.m0000000000000000^3473"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FacebookLogin.o MyYunaitDeals/Classes/UI/FacebookLogin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FacebookLogin.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FacebookLogin.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FacebookLogin.o36"8F759283-6DA5-4CAA-A445-54E421142114-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FirstNavigationViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FirstNavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.564990
-e372923633.694791
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FirstNavigationViewController.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FirstNavigationViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FirstNavigationViewController.md9cd90f15c3ab641^d3ddb1f15c3ab641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FirstNavigationViewController.m0000000000000000^3569"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FirstNavigationViewController.o MyYunaitDeals/Classes/UI/FirstNavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FirstNavigationViewController.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FirstNavigationViewController.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FirstNavigationViewController.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/FirstNavigationViewController.o36"16795180-435A-49FD-AFDD-0EA6C77C4385-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/HttpConnection.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.250452
-e372923634.337908
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/HttpConnection.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m:38:17: warning: incomplete implementation [-Wincomplete-implementation]
-o@implementation HttpConnection
-o                ^
-o/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.h:52:1: note: method definition for 'isConnectedToNework' not found
-o- (BOOL)isConnectedToNework;
-o^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m834e40f25c3ab641^a39256f25c3ab641^-403"/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m:38:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation HttpConnection                ^/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.h:52:1: note: method definition for 'isConnectedToNework' not found- (BOOL)isConnectedToNework;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-372923634#18446744073709551615#0#1(2@53"Method definition for 'isConnectedToNework' not found-372923634#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.h0000000000000000^51#0#51#0#1181#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m0000000000000000^37#16#37#16#972#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@97"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m0000000000000000^3483"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/HttpConnection.o MyYunaitDeals/Classes/Core/HttpConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/HttpConnection.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/HttpConnection.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/Core/HttpConnection.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/HttpConnection.o36"2F83AE87-D2D1-4768-8B26-963DC2070AC1-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSObject+SBJSON.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.920991
-e372923633.972737
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSObject+SBJSON.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSObject+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSObject+SBJSON.mcc07ecf15c3ab641^2905f9f15c3ab641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSObject+SBJSON.m0000000000000000^3505"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSObject+SBJSON.o MyYunaitDeals/facebookSDK/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSObject+SBJSON.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSObject+SBJSON.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSObject+SBJSON.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSObject+SBJSON.o36"201EBF3D-07CE-4118-B6F2-456916E12628-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSString+SBJSON.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.975875
-e372923634.015305
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSString+SBJSON.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSString+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSString+SBJSON.m1405faf15c3ab641^40f903f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSString+SBJSON.m0000000000000000^3505"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSString+SBJSON.o MyYunaitDeals/facebookSDK/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSString+SBJSON.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSString+SBJSON.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/NSString+SBJSON.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/NSString+SBJSON.o36"C71A98F1-610F-483B-9944-A035D2AACF12-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJSON.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.993553
-e372923634.064681
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJSON.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJSON.m3997fef15c3ab641^d3a410f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJSON.m0000000000000000^3451"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJSON.o MyYunaitDeals/facebookSDK/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJSON.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJSON.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJSON.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJSON.o36"12225CDA-40E7-4542-9923-948E62699513-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonBase.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.998817
-e372923634.057597
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonBase.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonBase.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonBase.m75e5fff15c3ab641^38be0ef25c3ab641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonBase.m0000000000000000^3475"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonBase.o MyYunaitDeals/facebookSDK/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonBase.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonBase.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonBase.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonBase.o36"8771C7BD-3E83-44C3-B3F6-8BC432857CF1-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonParser.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.016581
-e372923634.166911
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonParser.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonParser.m717104f25c3ab641^0f5e2bf25c3ab641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonParser.m0000000000000000^3487"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonParser.o MyYunaitDeals/facebookSDK/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonParser.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonParser.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonParser.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonParser.o36"2D71A29D-443D-4287-8214-AF39DD78CAE1-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonWriter.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.017859
-e372923634.107316
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonWriter.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonWriter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonWriter.m7ec304f25c3ab641^a4e21bf25c3ab641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonWriter.m0000000000000000^3487"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonWriter.o MyYunaitDeals/facebookSDK/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonWriter.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonWriter.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/JSON/SBJsonWriter.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SBJsonWriter.o36"34B2EEB8-1A0E-4BBD-AA9B-14992B50712C-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SecondNavigationViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/SecondNavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.565010
-e372923633.671718
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SecondNavigationViewController.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/SecondNavigationViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/SecondNavigationViewController.m6dc790f15c3ab641^7903acf15c3ab641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/SecondNavigationViewController.m0000000000000000^3575"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SecondNavigationViewController.o MyYunaitDeals/Classes/UI/SecondNavigationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SecondNavigationViewController.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SecondNavigationViewController.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/SecondNavigationViewController.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/SecondNavigationViewController.o36"04AB4B5F-1825-40D8-AAFF-A22F42B2500A-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/ThirdViewController.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923634.065873
-e372923634.199653
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/ThirdViewController.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.m12a313f25c3ab641^a73b33f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.m0000000000000000^3509"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/ThirdViewController.o MyYunaitDeals/Classes/UI/ThirdViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/ThirdViewController.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/ThirdViewController.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/ThirdViewController.o36"6D415155-3B71-407E-865E-EFE4E1F078E7-
-
-CCompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/main.o /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.564434
-e372923633.629886
-r1
-xCompileC
-xbuild/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/main.o
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/main.m38a190f15c3ab641^2b4ea1f15c3ab641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/main.m0000000000000000^3397"CompileC build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/main.o MyYunaitDeals/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -include /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/main.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/main.m -o /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/main.o36"5E99623A-2F3E-4E5E-97B5-1522E5231D0E-
-
-CCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.xib
-s372923634.737711
-e372923636.676019
-r1
-xCompileXIB
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compiling /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.xibf9f8bcf25c3ab641^de8eb0f45c3ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.xib0000000000000000^917"CompileXIB MyYunaitDeals/Classes/UI/DealViewCell.xib    cd /Users/frowing/Projects/MyYunaitDeals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/DealViewCell.nib /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewCell.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"6F911A21-BB7C-4F05-9D79-AEA3810FD589-
-
-CCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.xib
-s372923636.510620
-e372923636.931389
-r1
-xCompileXIB
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.xibedd682f45c3ab641^b08feef45c3ab641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.xib0000000000000000^935"CompileXIB MyYunaitDeals/Classes/UI/DealViewController.xib    cd /Users/frowing/Projects/MyYunaitDeals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/DealViewController.nib /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"620ED4CB-9C88-4495-979D-390A3AFB10E1-
-
-CCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.xib
-s372923634.728483
-e372923636.504811
-r1
-xCompileXIB
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compiling /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.xib76a8baf25c3ab641^0aa282f45c3ab641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.xib0000000000000000^938"CompileXIB MyYunaitDeals/Classes/UI/DealsViewController.xib    cd /Users/frowing/Projects/MyYunaitDeals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/DealsViewController.nib /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/DealsViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"B13EC28E-BA12-4F55-A443-8A7FEC348CA2-
-
-CCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.xib
-s372923634.729663
-e372923636.665263
-r1
-xCompileXIB
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.xibb1e0baf25c3ab641^03ceaaf45c3ab641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.xib0000000000000000^920"CompileXIB MyYunaitDeals/Classes/UI/FacebookLogin.xib    cd /Users/frowing/Projects/MyYunaitDeals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/FacebookLogin.nib /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/FacebookLogin.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"A6408F04-1395-4EFD-9FA0-2F0C926B826C-
-
-CCompileXIB /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.xib
-s372923634.733716
-e372923636.717714
-r1
-xCompileXIB
-x/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compiling /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.xibccf0bbf25c3ab641^95f1b7f45c3ab641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.xib0000000000000000^938"CompileXIB MyYunaitDeals/Classes/UI/ThirdViewController.xib    cd /Users/frowing/Projects/MyYunaitDeals    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/ThirdViewController.nib /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/Classes/UI/ThirdViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"7F78ADA2-0EDF-4767-86A3-3F3395AEAC96-
-
-CCopyStringsFile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/en.lproj/InfoPlist.strings MyYunaitDeals/en.lproj/InfoPlist.strings
-s372923634.720717
-e372923634.727531
-r1
-xCopyStringsFile
-x/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/en.lproj/InfoPlist.strings
-xMyYunaitDeals/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy MyYunaitDeals/en.lproj/InfoPlist.stringsdfc4b8f25c3ab641^c042baf25c3ab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/en.lproj/InfoPlist.strings0000000000000000^638"CopyStringsFile Frank/frankified_build/./MyYunaitDeals.app/en.lproj/InfoPlist.strings MyYunaitDeals/en.lproj/InfoPlist.strings    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/en.lproj -- MyYunaitDeals/en.lproj/InfoPlist.strings36"CA72370F-9786-4E1A-8663-4F3B79F2A23E-
-
-CCpResource MyYunaitDeals/facebookSDK/src/FBDialog.bundle Frank/frankified_build/./MyYunaitDeals.app/FBDialog.bundle
-s372923634.728849
-e372923634.736413
-r1
-xCpResource
-xMyYunaitDeals/facebookSDK/src/FBDialog.bundle
-xFrank/frankified_build/./MyYunaitDeals.app/FBDialog.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Frank/frankified_build/./MyYunaitDeals.app/FBDialog.bundleffb3baf25c3ab641^f391bcf25c3ab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/FBDialog.bundle000000000080d041^785"CpResource MyYunaitDeals/facebookSDK/src/FBDialog.bundle Frank/frankified_build/./MyYunaitDeals.app/FBDialog.bundle    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/facebookSDK/src/FBDialog.bundle /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app36"FEE853CE-607A-4546-A600-C436B560AD74-
-
-CCpResource MyYunaitDeals/first.png Frank/frankified_build/./MyYunaitDeals.app/first.png
-s372923634.720718
-e372923634.727128
-r1
-xCpResource
-xMyYunaitDeals/first.png
-xFrank/frankified_build/./MyYunaitDeals.app/first.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Frank/frankified_build/./MyYunaitDeals.app/first.png7cb8b8f25c3ab641^1328baf25c3ab641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/first.png000000000080d041^735"CpResource MyYunaitDeals/first.png Frank/frankified_build/./MyYunaitDeals.app/first.png    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/first.png /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app36"5C5D6343-4D81-40D9-929C-CD5BB9BC710E-
-
-CCpResource MyYunaitDeals/first@2x.png Frank/frankified_build/./MyYunaitDeals.app/first@2x.png
-s372923634.721369
-e372923634.727154
-r1
-xCpResource
-xMyYunaitDeals/first@2x.png
-xFrank/frankified_build/./MyYunaitDeals.app/first@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Frank/frankified_build/./MyYunaitDeals.app/first@2x.pngdee3b8f25c3ab641^9b37baf25c3ab641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/first@2x.png000000000080d041^750"CpResource "MyYunaitDeals/first@2x.png" "Frank/frankified_build/./MyYunaitDeals.app/first@2x.png"    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/first@2x.png" /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app36"686C8773-50C9-44C6-8E4D-4548E4DAFEDD-
-
-CCpResource MyYunaitDeals/second.png Frank/frankified_build/./MyYunaitDeals.app/second.png
-s372923634.721388
-e372923634.728380
-r1
-xCpResource
-xMyYunaitDeals/second.png
-xFrank/frankified_build/./MyYunaitDeals.app/second.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy Frank/frankified_build/./MyYunaitDeals.app/second.pngdae4b8f25c3ab641^d577baf25c3ab641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/second.png000000000080d041^738"CpResource MyYunaitDeals/second.png Frank/frankified_build/./MyYunaitDeals.app/second.png    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/second.png /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app36"50B91468-2DAF-4C9D-BB64-99460158E90B-
-
-CCpResource MyYunaitDeals/second@2x.png Frank/frankified_build/./MyYunaitDeals.app/second@2x.png
-s372923634.728358
-e372923634.732445
-r1
-xCpResource
-xMyYunaitDeals/second@2x.png
-xFrank/frankified_build/./MyYunaitDeals.app/second@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Frank/frankified_build/./MyYunaitDeals.app/second@2x.pngab98baf25c3ab641^6281bbf25c3ab641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/second@2x.png000000000080d041^753"CpResource "MyYunaitDeals/second@2x.png" "Frank/frankified_build/./MyYunaitDeals.app/second@2x.png"    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/second@2x.png" /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app36"11BE37DE-7BA9-4F8A-A735-1F337DB7058F-
-
-CGenerateDSYMFile /Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app.dSYM /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals
-s372923634.569337
-e372923634.710968
-r1
-xGenerateDSYMFile
-x/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app.dSYM
-x/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Generating /Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app.dSYM84d491f25c3ab641^8602b6f25c3ab641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app.dSYM000000000080d041^708"GenerateDSYMFile build/Debug-iphonesimulator/MyYunaitDeals.app.dSYM Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals -o /Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app.dSYM36"76474997-0D1B-4F98-9AF9-4D63CFBD189C-
-
-CLd /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals normal i386
-s372923634.451112
-e372923634.562353
-r1
-xLd
-x/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Link /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals149373f25c3ab641^06f78ff25c3ab641^---0#0#0#--1389"Ld Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals normal i386    cd /Users/frowing/Projects/MyYunaitDeals    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -L/Users/frowing/Projects/MyYunaitDeals/Frank -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator -filelist /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/Objects-normal/i386/MyYunaitDeals.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -framework CFNetwork -framework Security -lShelley -lCocoaHTTPServer -lFrank -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/MyYunaitDeals36"3209C7A1-A9B1-4524-8EA2-20A1790E196A-
-
-CProcessInfoPlistFile /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/Info.plist MyYunaitDeals/MyYunaitDeals-Info.plist
-s372923633.160001
-e372923633.164143
-r1
-xProcessInfoPlistFile
-x/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/Info.plist
-xMyYunaitDeals/MyYunaitDeals-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process MyYunaitDeals/MyYunaitDeals-Info.plist121629f15c3ab641^ab052af15c3ab641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/MyYunaitDeals-Info.plist0000000000000000^727"ProcessInfoPlistFile Frank/frankified_build/./MyYunaitDeals.app/Info.plist MyYunaitDeals/MyYunaitDeals-Info.plist    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-infoPlistUtility MyYunaitDeals/MyYunaitDeals-Info.plist -genpkginfo /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app/Info.plist36"862BE3BA-D3A1-472F-9CEB-BE582FA6C449-
-
-CProcessPCH /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch.pth MyYunaitDeals/MyYunaitDeals-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372923633.178357
-e372923633.557339
-r1
-xProcessPCH
-x/var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch.pth
-xMyYunaitDeals/MyYunaitDeals-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile MyYunaitDeals/MyYunaitDeals-Prefix.pch54c82df15c3ab641^3fad8ef15c3ab641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/MyYunaitDeals-Prefix.pch0000000000000000^3445"ProcessPCH /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch.pth MyYunaitDeals/MyYunaitDeals-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/frowing/Projects/MyYunaitDeals    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-generated-files.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-own-target-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-all-target-headers.hmap -iquote /Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/MyYunaitDeals-project-headers.hmap -I/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/include -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources/i386 -I/Users/frowing/Projects/MyYunaitDeals/build/MyYunaitDeals.build/Debug-iphonesimulator/MyYunaitDeals.build/DerivedSources -F/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch.dia -c /Users/frowing/Projects/MyYunaitDeals/MyYunaitDeals/MyYunaitDeals-Prefix.pch -o /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/7s/th02d9xs4b713yjjnf3zp3nw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyYunaitDeals-Prefix-blwepchufkqusbfryujwkonhswrc/MyYunaitDeals-Prefix.pch.d36"536365AD-27C6-4927-988A-A9DC9632BD18-
-
-CSymLink /Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app
-s372923633.160664
-e372923633.169083
-r1
-xSymLink
-x/Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app
-x/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Process /Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app0c3a29f15c3ab641^6b492bf15c3ab641^---0#0#0#--565"SymLink build/Debug-iphonesimulator/MyYunaitDeals.app Frank/frankified_build/./MyYunaitDeals.app    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app /Users/frowing/Projects/MyYunaitDeals/build/Debug-iphonesimulator/MyYunaitDeals.app36"43EEE7C2-10ED-4CB5-A6ED-E640F233D6EE-
-
-CTouch /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app
-s372923636.940123
-e372923636.949594
-r1
-xTouch
-x/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Touch /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app90bff0f45c3ab641^5518f3f45c3ab641^---0#0#0#--439"Touch Frank/frankified_build/./MyYunaitDeals.app    cd /Users/frowing/Projects/MyYunaitDeals    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app36"EEC8758E-5223-4B73-8BD1-79D45C9BC191-
-

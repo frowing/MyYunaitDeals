@@ -1,1 +1,0 @@
-/Users/frowing/Projects/MyYunaitDeals/Frank/frankified_build/./MyYunaitDeals.app
